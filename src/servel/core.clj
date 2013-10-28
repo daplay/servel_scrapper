@@ -3,8 +3,8 @@
             [clojure.data.json :as json]
             [clojure.pprint :refer [pprint]]
             [clojure.java.io :refer [writer]]
-            [chileno.dv :as dv]))
-
+            [chileno.dv :as dv])
+  (:gen-class :main true))
 
 (def keys-table
   {"NOMBRE" :name
