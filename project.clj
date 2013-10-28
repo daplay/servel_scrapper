@@ -6,6 +6,5 @@
   :dependencies [[org.clojure/clojure "1.5.1"]
                 [http-kit "2.0.0"]
                 [org.clojure/data.json "0.2.3"]
-                [chileno "0.1.1"]
-                [com.novemberain/monger "1.5.0"]]
+                [chileno "0.1.2"]]
   :main servel.core)
